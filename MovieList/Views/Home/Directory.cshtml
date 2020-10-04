@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Directory";
+}
+<h1>Most watched movies</h1>
+
+<p class="txt">
+    We all know that first impressions are important, right? These are the five most watched movies this week.
+</p>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+        div.desc {
+            padding: 5px;
+            text-align: inherit;
+        }
+
+        .responsive {
+            padding: 0 8px;
+            float: left;
+            width: 20%;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="topleft">
+        <i class="fas fa-heart"></i>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt1483013/?ref_=fn_al_tt_1">
+                <img src="~/img/oblivion.jpg" alt="OBLIVION" width="600" height="400">
+            </a>
+            <div class="desc">
+                A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.
+                Director: Joseph Kosinski
+                Writers: Karl Gajdusek (screenplay), Michael Arndt (screenplay) (as Michael deBruyn) | 1 more credit »
+                Stars: Tom Cruise, Morgan Freeman, Andrea Riseborough
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt4777008/?ref_=nv_sr_srsg_5">
+                <img src="~/img/malificent.jpg" alt="Maleficent 1" width="600" height="400">
+            </a>
+            <div class="desc">
+                A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land.
+                Director: Robert Stromberg
+                Writers: Linda Woolverton (screenplay by), Charles Perrault (based on "La Belle au bois dormant" written by)
+                Stars: Angelina Jolie, Elle Fanning, Sharlto Copley
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt6105098/?ref_=nv_sr_srsg_0">
+                <img src="~/img/lionking2.jpg" alt="Lion King" width="600" height="400">
+            </a>
+            <div class="desc">
+                After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.
+                Director: Jon Favreau
+                Writers: Jeff Nathanson (screenplay by), Irene Mecchi (based on "The Lion King" screenplay by) | 2 more credits »
+                Stars: Donald Glover, Beyoncé, Seth Rogen |
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt1201607/?ref_=fn_al_tt_4">
+                <img src="~/img/harrypoter.jpg" alt="Harry Potter and the Deathly Hallows: Part 2 " width="600" height="400">
+            </a>
+            <div class="desc">
+                Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+                Director: David Yates
+                Writers: Steve Kloves (screenplay), J.K. Rowling (novel)
+                Stars: Daniel Radcliffe, Emma Watson, Rupert Grint
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt0871426/?ref_=nv_sr_srsg_7">
+                <img src="~/img/babymama.jpg" alt="Baby Mama " width="600" height="400">
+            </a>
+            <div class="desc">
+
+                A successful, single businesswoman who dreams of having a baby discovers she is infertile and hires a working class woman to be her unlikely surrogate.
+                Director: Michael McCullers
+                Writer: Michael McCullers
+                Stars: Tina Fey, Amy Poehler Emma Watson, Rupert |
+
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+</html>
